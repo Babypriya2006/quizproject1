@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <input type="text" name="username" placeholder="username" required>
+            <input type="password" name="pssw" placeholder="password" required>
+            <button type="submit" onclick="window.location.href='start.html'">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Sign up Now</a></p>
+        <p id="message"></p>
+    </div>
+</body>
+</html>
